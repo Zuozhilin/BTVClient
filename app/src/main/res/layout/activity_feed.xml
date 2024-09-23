@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 二级选项：纯视频、图文视频 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_pure_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="纯视频" />
+
+        <Button
+            android:id="@+id/btn_mixed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图文视频" />
+    </LinearLayout>
+
+    <!-- 动态列表 -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_feed"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp" />
+</LinearLayout>
