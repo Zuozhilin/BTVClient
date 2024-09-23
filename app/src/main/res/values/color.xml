@@ -1,0 +1,5 @@
+<resources>
+    <color name="colorPrimary">#6200EE</color> <!-- 主色 -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- 主深色 -->
+    <color name="colorAccent">#03DAC5</color> <!-- 强调色 -->
+</resources>
